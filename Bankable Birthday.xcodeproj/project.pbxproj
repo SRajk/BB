@@ -14,9 +14,11 @@
 		354A2D761CFACB1300DAD5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354A2D751CFACB1300DAD5EF /* Assets.xcassets */; };
 		354A2D791CFACB1300DAD5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354A2D771CFACB1300DAD5EF /* LaunchScreen.storyboard */; };
 		354A2D841CFACB1300DAD5EF /* Bankable_BirthdayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D831CFACB1300DAD5EF /* Bankable_BirthdayTests.m */; };
-		355CC3921CFAE9B70098A206 /* Help_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CC3911CFAE9B70098A206 /* Help_VC.m */; };
-		355CC3961CFAE9ED0098A206 /* HelpCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CC3941CFAE9ED0098A206 /* HelpCollectionViewCell.m */; };
-		355CC3971CFAE9ED0098A206 /* HelpCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355CC3951CFAE9ED0098A206 /* HelpCollectionViewCell.xib */; };
+		355CC3A11CFAFE290098A206 /* Help_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CC39D1CFAFE290098A206 /* Help_VC.m */; };
+		355CC3A21CFAFE290098A206 /* HelpCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CC39F1CFAFE290098A206 /* HelpCollectionViewCell.m */; };
+		355CC3A31CFAFE290098A206 /* HelpCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355CC3A01CFAFE290098A206 /* HelpCollectionViewCell.xib */; };
+		355CC3AB1CFAFEAB0098A206 /* SignIn_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CC3A91CFAFEAB0098A206 /* SignIn_VC.m */; };
+		355CC3AC1CFAFEAB0098A206 /* SignIn_VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355CC3AA1CFAFEAB0098A206 /* SignIn_VC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +44,14 @@
 		354A2D7F1CFACB1300DAD5EF /* Bankable BirthdayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bankable BirthdayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		354A2D831CFACB1300DAD5EF /* Bankable_BirthdayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bankable_BirthdayTests.m; sourceTree = "<group>"; };
 		354A2D851CFACB1300DAD5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		355CC3901CFAE9B70098A206 /* Help_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help_VC.h; sourceTree = "<group>"; };
-		355CC3911CFAE9B70098A206 /* Help_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Help_VC.m; sourceTree = "<group>"; };
-		355CC3931CFAE9ED0098A206 /* HelpCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpCollectionViewCell.h; sourceTree = "<group>"; };
-		355CC3941CFAE9ED0098A206 /* HelpCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpCollectionViewCell.m; sourceTree = "<group>"; };
-		355CC3951CFAE9ED0098A206 /* HelpCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpCollectionViewCell.xib; sourceTree = "<group>"; };
+		355CC39C1CFAFE290098A206 /* Help_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help_VC.h; sourceTree = "<group>"; };
+		355CC39D1CFAFE290098A206 /* Help_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Help_VC.m; sourceTree = "<group>"; };
+		355CC39E1CFAFE290098A206 /* HelpCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpCollectionViewCell.h; sourceTree = "<group>"; };
+		355CC39F1CFAFE290098A206 /* HelpCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpCollectionViewCell.m; sourceTree = "<group>"; };
+		355CC3A01CFAFE290098A206 /* HelpCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpCollectionViewCell.xib; sourceTree = "<group>"; };
+		355CC3A81CFAFEAB0098A206 /* SignIn_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignIn_VC.h; sourceTree = "<group>"; };
+		355CC3A91CFAFEAB0098A206 /* SignIn_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignIn_VC.m; sourceTree = "<group>"; };
+		355CC3AA1CFAFEAB0098A206 /* SignIn_VC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignIn_VC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +93,8 @@
 		354A2D651CFACB1300DAD5EF /* Bankable Birthday */ = {
 			isa = PBXGroup;
 			children = (
-				355CC38F1CFAE9770098A206 /* How It Works */,
+				355CC39A1CFAFD9B0098A206 /* Model */,
+				355CC3991CFAFD8C0098A206 /* View */,
 				354A2D691CFACB1300DAD5EF /* AppDelegate.h */,
 				354A2D6A1CFACB1300DAD5EF /* AppDelegate.m */,
 				354A2D6F1CFACB1300DAD5EF /* Main.storyboard */,
@@ -118,16 +124,66 @@
 			path = "Bankable BirthdayTests";
 			sourceTree = "<group>";
 		};
-		355CC38F1CFAE9770098A206 /* How It Works */ = {
+		355CC3991CFAFD8C0098A206 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				355CC3901CFAE9B70098A206 /* Help_VC.h */,
-				355CC3911CFAE9B70098A206 /* Help_VC.m */,
-				355CC3931CFAE9ED0098A206 /* HelpCollectionViewCell.h */,
-				355CC3941CFAE9ED0098A206 /* HelpCollectionViewCell.m */,
-				355CC3951CFAE9ED0098A206 /* HelpCollectionViewCell.xib */,
+				355CC3A41CFAFE470098A206 /* Registration */,
+				355CC39B1CFAFE290098A206 /* How It Works */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		355CC39A1CFAFD9B0098A206 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		355CC39B1CFAFE290098A206 /* How It Works */ = {
+			isa = PBXGroup;
+			children = (
+				355CC39C1CFAFE290098A206 /* Help_VC.h */,
+				355CC39D1CFAFE290098A206 /* Help_VC.m */,
+				355CC39E1CFAFE290098A206 /* HelpCollectionViewCell.h */,
+				355CC39F1CFAFE290098A206 /* HelpCollectionViewCell.m */,
+				355CC3A01CFAFE290098A206 /* HelpCollectionViewCell.xib */,
 			);
 			path = "How It Works";
+			sourceTree = "<group>";
+		};
+		355CC3A41CFAFE470098A206 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				355CC3A51CFAFE7F0098A206 /* Forgot Password */,
+				355CC3A61CFAFE7F0098A206 /* Sign In */,
+				355CC3A71CFAFE7F0098A206 /* Sign up */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		355CC3A51CFAFE7F0098A206 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		355CC3A61CFAFE7F0098A206 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				355CC3A81CFAFEAB0098A206 /* SignIn_VC.h */,
+				355CC3A91CFAFEAB0098A206 /* SignIn_VC.m */,
+				355CC3AA1CFAFEAB0098A206 /* SignIn_VC.xib */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
+		355CC3A71CFAFE7F0098A206 /* Sign up */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sign up";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +268,9 @@
 			files = (
 				354A2D791CFACB1300DAD5EF /* LaunchScreen.storyboard in Resources */,
 				354A2D761CFACB1300DAD5EF /* Assets.xcassets in Resources */,
+				355CC3AC1CFAFEAB0098A206 /* SignIn_VC.xib in Resources */,
 				354A2D711CFACB1300DAD5EF /* Main.storyboard in Resources */,
-				355CC3971CFAE9ED0098A206 /* HelpCollectionViewCell.xib in Resources */,
+				355CC3A31CFAFE290098A206 /* HelpCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,9 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				354A2D741CFACB1300DAD5EF /* Bankable_Birthday.xcdatamodeld in Sources */,
-				355CC3921CFAE9B70098A206 /* Help_VC.m in Sources */,
-				355CC3961CFAE9ED0098A206 /* HelpCollectionViewCell.m in Sources */,
+				355CC3A11CFAFE290098A206 /* Help_VC.m in Sources */,
+				355CC3A21CFAFE290098A206 /* HelpCollectionViewCell.m in Sources */,
 				354A2D6B1CFACB1300DAD5EF /* AppDelegate.m in Sources */,
+				355CC3AB1CFAFEAB0098A206 /* SignIn_VC.m in Sources */,
 				354A2D681CFACB1300DAD5EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
