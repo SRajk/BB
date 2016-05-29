@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		354A2D681CFACB1300DAD5EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D671CFACB1300DAD5EF /* main.m */; };
 		354A2D6B1CFACB1300DAD5EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D6A1CFACB1300DAD5EF /* AppDelegate.m */; };
-		354A2D6E1CFACB1300DAD5EF /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D6D1CFACB1300DAD5EF /* SplashViewController.m */; };
 		354A2D711CFACB1300DAD5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354A2D6F1CFACB1300DAD5EF /* Main.storyboard */; };
 		354A2D741CFACB1300DAD5EF /* Bankable_Birthday.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D721CFACB1300DAD5EF /* Bankable_Birthday.xcdatamodeld */; };
 		354A2D761CFACB1300DAD5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354A2D751CFACB1300DAD5EF /* Assets.xcassets */; };
 		354A2D791CFACB1300DAD5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354A2D771CFACB1300DAD5EF /* LaunchScreen.storyboard */; };
 		354A2D841CFACB1300DAD5EF /* Bankable_BirthdayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D831CFACB1300DAD5EF /* Bankable_BirthdayTests.m */; };
+		355CC3921CFAE9B70098A206 /* Help_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CC3911CFAE9B70098A206 /* Help_VC.m */; };
+		355CC3961CFAE9ED0098A206 /* HelpCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CC3941CFAE9ED0098A206 /* HelpCollectionViewCell.m */; };
+		355CC3971CFAE9ED0098A206 /* HelpCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355CC3951CFAE9ED0098A206 /* HelpCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +34,6 @@
 		354A2D671CFACB1300DAD5EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		354A2D691CFACB1300DAD5EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		354A2D6A1CFACB1300DAD5EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		354A2D6C1CFACB1300DAD5EF /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
-		354A2D6D1CFACB1300DAD5EF /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		354A2D701CFACB1300DAD5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		354A2D731CFACB1300DAD5EF /* Bankable_Birthday.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bankable_Birthday.xcdatamodel; sourceTree = "<group>"; };
 		354A2D751CFACB1300DAD5EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +42,11 @@
 		354A2D7F1CFACB1300DAD5EF /* Bankable BirthdayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bankable BirthdayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		354A2D831CFACB1300DAD5EF /* Bankable_BirthdayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bankable_BirthdayTests.m; sourceTree = "<group>"; };
 		354A2D851CFACB1300DAD5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355CC3901CFAE9B70098A206 /* Help_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help_VC.h; sourceTree = "<group>"; };
+		355CC3911CFAE9B70098A206 /* Help_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Help_VC.m; sourceTree = "<group>"; };
+		355CC3931CFAE9ED0098A206 /* HelpCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpCollectionViewCell.h; sourceTree = "<group>"; };
+		355CC3941CFAE9ED0098A206 /* HelpCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpCollectionViewCell.m; sourceTree = "<group>"; };
+		355CC3951CFAE9ED0098A206 /* HelpCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +88,9 @@
 		354A2D651CFACB1300DAD5EF /* Bankable Birthday */ = {
 			isa = PBXGroup;
 			children = (
+				355CC38F1CFAE9770098A206 /* How It Works */,
 				354A2D691CFACB1300DAD5EF /* AppDelegate.h */,
 				354A2D6A1CFACB1300DAD5EF /* AppDelegate.m */,
-				354A2D6C1CFACB1300DAD5EF /* SplashViewController.h */,
-				354A2D6D1CFACB1300DAD5EF /* SplashViewController.m */,
 				354A2D6F1CFACB1300DAD5EF /* Main.storyboard */,
 				354A2D751CFACB1300DAD5EF /* Assets.xcassets */,
 				354A2D771CFACB1300DAD5EF /* LaunchScreen.storyboard */,
@@ -112,6 +116,18 @@
 				354A2D851CFACB1300DAD5EF /* Info.plist */,
 			);
 			path = "Bankable BirthdayTests";
+			sourceTree = "<group>";
+		};
+		355CC38F1CFAE9770098A206 /* How It Works */ = {
+			isa = PBXGroup;
+			children = (
+				355CC3901CFAE9B70098A206 /* Help_VC.h */,
+				355CC3911CFAE9B70098A206 /* Help_VC.m */,
+				355CC3931CFAE9ED0098A206 /* HelpCollectionViewCell.h */,
+				355CC3941CFAE9ED0098A206 /* HelpCollectionViewCell.m */,
+				355CC3951CFAE9ED0098A206 /* HelpCollectionViewCell.xib */,
+			);
+			path = "How It Works";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +213,7 @@
 				354A2D791CFACB1300DAD5EF /* LaunchScreen.storyboard in Resources */,
 				354A2D761CFACB1300DAD5EF /* Assets.xcassets in Resources */,
 				354A2D711CFACB1300DAD5EF /* Main.storyboard in Resources */,
+				355CC3971CFAE9ED0098A206 /* HelpCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				354A2D741CFACB1300DAD5EF /* Bankable_Birthday.xcdatamodeld in Sources */,
-				354A2D6E1CFACB1300DAD5EF /* SplashViewController.m in Sources */,
+				355CC3921CFAE9B70098A206 /* Help_VC.m in Sources */,
+				355CC3961CFAE9ED0098A206 /* HelpCollectionViewCell.m in Sources */,
 				354A2D6B1CFACB1300DAD5EF /* AppDelegate.m in Sources */,
 				354A2D681CFACB1300DAD5EF /* main.m in Sources */,
 			);
