@@ -124,6 +124,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="80" id="Yk8-xZ-zNn"/>
                                                 <constraint firstAttribute="height" constant="50" id="sck-gx-RQ9"/>
+                                                <constraint firstAttribute="width" constant="50" id="thc-Ts-LrL"/>
                                             </constraints>
                                             <state key="normal" image="fb_icon"/>
                                             <variation key="default">
@@ -174,18 +175,26 @@
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="wbL-vF-tSj" secondAttribute="bottom" id="0ah-AS-Eg2"/>
                                         <constraint firstItem="wbL-vF-tSj" firstAttribute="top" secondItem="W6I-0E-6bJ" secondAttribute="top" id="3tv-Cq-Gsl"/>
-                                        <constraint firstItem="6KS-hs-leh" firstAttribute="leading" secondItem="W6I-0E-6bJ" secondAttribute="leading" constant="10" id="4Ne-WT-USK"/>
+                                        <constraint firstItem="6KS-hs-leh" firstAttribute="leading" secondItem="W6I-0E-6bJ" secondAttribute="leading" priority="250" constant="10" id="4Ne-WT-USK"/>
                                         <constraint firstAttribute="bottom" secondItem="6KS-hs-leh" secondAttribute="bottom" id="4zo-Rp-iYK"/>
                                         <constraint firstItem="CL9-gw-M4g" firstAttribute="top" secondItem="W6I-0E-6bJ" secondAttribute="top" id="7Cd-lK-Nac"/>
                                         <constraint firstItem="CL9-gw-M4g" firstAttribute="width" secondItem="6KS-hs-leh" secondAttribute="width" id="89Z-Ad-xwP"/>
                                         <constraint firstItem="wbL-vF-tSj" firstAttribute="width" secondItem="6KS-hs-leh" secondAttribute="width" id="9Ak-3Z-uqx"/>
                                         <constraint firstAttribute="height" constant="50" id="HlM-fS-NiQ"/>
-                                        <constraint firstAttribute="trailing" secondItem="wbL-vF-tSj" secondAttribute="trailing" constant="10" id="LRX-Ux-CLl"/>
+                                        <constraint firstAttribute="trailing" secondItem="wbL-vF-tSj" secondAttribute="trailing" priority="250" constant="10" id="LRX-Ux-CLl"/>
                                         <constraint firstItem="6KS-hs-leh" firstAttribute="top" secondItem="W6I-0E-6bJ" secondAttribute="top" id="MMY-A8-aic"/>
+                                        <constraint firstItem="CL9-gw-M4g" firstAttribute="width" secondItem="6KS-hs-leh" secondAttribute="width" id="eHD-bC-yP6"/>
+                                        <constraint firstItem="wbL-vF-tSj" firstAttribute="width" secondItem="6KS-hs-leh" secondAttribute="width" id="hXO-CE-sx7"/>
                                         <constraint firstItem="CL9-gw-M4g" firstAttribute="leading" secondItem="6KS-hs-leh" secondAttribute="trailing" constant="10" id="kUT-XC-eBf"/>
                                         <constraint firstAttribute="bottom" secondItem="CL9-gw-M4g" secondAttribute="bottom" id="tWf-M4-Trg"/>
                                         <constraint firstItem="wbL-vF-tSj" firstAttribute="leading" secondItem="CL9-gw-M4g" secondAttribute="trailing" constant="10" id="thI-AW-HR3"/>
                                     </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="89Z-Ad-xwP"/>
+                                            <exclude reference="9Ak-3Z-uqx"/>
+                                        </mask>
+                                    </variation>
                                 </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't Have an Account ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2z-yV-TAQ">
                                     <rect key="frame" x="74" y="451" width="172" height="21"/>
