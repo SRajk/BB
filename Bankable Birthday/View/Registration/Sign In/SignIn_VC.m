@@ -48,6 +48,13 @@
     self.btnRegisterNow.layer.cornerRadius = 4;
     
     
+    
+}
+
+-(void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    
     [_userisIcon setFrame:CGRectMake(0.0, 0.0, 45.0, 20.0)];
     [_passwordIcon setFrame:CGRectMake(0.0, 0.0, 45.0, 20.0)];
     
@@ -59,6 +66,14 @@
     //password field
     [_txt_password setLeftView:_passwordIcon];
     [_txt_password configureForLeftViewUnderline];
+    
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
