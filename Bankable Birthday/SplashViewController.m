@@ -9,7 +9,7 @@
 #import "SplashViewController.h"
 
 // Rk test
-@interface ViewController ()
+@interface SplashViewController ()
 
 @end
 
