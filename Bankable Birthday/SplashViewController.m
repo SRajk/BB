@@ -6,14 +6,14 @@
 //  Copyright © 2016 Raj Kadam. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SplashViewController.h"
 
 // Rk test
 @interface ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SplashViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

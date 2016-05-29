@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		354A2D681CFACB1300DAD5EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D671CFACB1300DAD5EF /* main.m */; };
 		354A2D6B1CFACB1300DAD5EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D6A1CFACB1300DAD5EF /* AppDelegate.m */; };
-		354A2D6E1CFACB1300DAD5EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D6D1CFACB1300DAD5EF /* ViewController.m */; };
+		354A2D6E1CFACB1300DAD5EF /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D6D1CFACB1300DAD5EF /* SplashViewController.m */; };
 		354A2D711CFACB1300DAD5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354A2D6F1CFACB1300DAD5EF /* Main.storyboard */; };
 		354A2D741CFACB1300DAD5EF /* Bankable_Birthday.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 354A2D721CFACB1300DAD5EF /* Bankable_Birthday.xcdatamodeld */; };
 		354A2D761CFACB1300DAD5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354A2D751CFACB1300DAD5EF /* Assets.xcassets */; };
@@ -32,8 +32,8 @@
 		354A2D671CFACB1300DAD5EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		354A2D691CFACB1300DAD5EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		354A2D6A1CFACB1300DAD5EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		354A2D6C1CFACB1300DAD5EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		354A2D6D1CFACB1300DAD5EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		354A2D6C1CFACB1300DAD5EF /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		354A2D6D1CFACB1300DAD5EF /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		354A2D701CFACB1300DAD5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		354A2D731CFACB1300DAD5EF /* Bankable_Birthday.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bankable_Birthday.xcdatamodel; sourceTree = "<group>"; };
 		354A2D751CFACB1300DAD5EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 			children = (
 				354A2D691CFACB1300DAD5EF /* AppDelegate.h */,
 				354A2D6A1CFACB1300DAD5EF /* AppDelegate.m */,
-				354A2D6C1CFACB1300DAD5EF /* ViewController.h */,
-				354A2D6D1CFACB1300DAD5EF /* ViewController.m */,
+				354A2D6C1CFACB1300DAD5EF /* SplashViewController.h */,
+				354A2D6D1CFACB1300DAD5EF /* SplashViewController.m */,
 				354A2D6F1CFACB1300DAD5EF /* Main.storyboard */,
 				354A2D751CFACB1300DAD5EF /* Assets.xcassets */,
 				354A2D771CFACB1300DAD5EF /* LaunchScreen.storyboard */,
@@ -215,7 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				354A2D741CFACB1300DAD5EF /* Bankable_Birthday.xcdatamodeld in Sources */,
-				354A2D6E1CFACB1300DAD5EF /* ViewController.m in Sources */,
+				354A2D6E1CFACB1300DAD5EF /* SplashViewController.m in Sources */,
 				354A2D6B1CFACB1300DAD5EF /* AppDelegate.m in Sources */,
 				354A2D681CFACB1300DAD5EF /* main.m in Sources */,
 			);
@@ -406,6 +406,7 @@
 				354A2D8A1CFACB1300DAD5EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		354A2D8B1CFACB1300DAD5EF /* Build configuration list for PBXNativeTarget "Bankable BirthdayTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +415,7 @@
 				354A2D8D1CFACB1300DAD5EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
