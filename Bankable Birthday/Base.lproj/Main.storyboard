@@ -34,6 +34,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEq-wo-5XE">
+                                <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                                <color key="backgroundColor" red="0.68235294120000001" green="0.22352941179999999" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" bounces="NO" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hjV-v9-dNo">
                                 <rect key="frame" x="0.0" y="99" width="320" height="301"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -79,16 +83,21 @@
                                 </constraints>
                             </pageControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.68235294117647061" green="0.22352941176470587" blue="0.55294117647058827" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="6Mh-aK-gTL" firstAttribute="leading" secondItem="faK-rp-DUo" secondAttribute="leading" constant="11" id="3no-fY-02I"/>
+                            <constraint firstItem="aA5-Sj-FcX" firstAttribute="top" secondItem="fEq-wo-5XE" secondAttribute="bottom" id="6IL-CE-wag"/>
+                            <constraint firstItem="fEq-wo-5XE" firstAttribute="top" secondItem="Abe-Xu-J1v" secondAttribute="bottom" id="7Oy-7X-vXV"/>
                             <constraint firstAttribute="trailing" secondItem="hjV-v9-dNo" secondAttribute="trailing" id="8Cb-9i-DT8"/>
                             <constraint firstItem="2sl-mg-7QE" firstAttribute="leading" secondItem="faK-rp-DUo" secondAttribute="leading" constant="20" id="9uJ-H3-OoO"/>
                             <constraint firstItem="hjV-v9-dNo" firstAttribute="top" secondItem="2sl-mg-7QE" secondAttribute="bottom" constant="8" id="Amm-ip-2kJ"/>
                             <constraint firstItem="2TK-X0-lwL" firstAttribute="top" secondItem="6Mh-aK-gTL" secondAttribute="bottom" id="GUA-fj-sa9"/>
+                            <constraint firstItem="fEq-wo-5XE" firstAttribute="leading" secondItem="faK-rp-DUo" secondAttribute="leading" id="GrB-zc-Vkm"/>
+                            <constraint firstItem="fEq-wo-5XE" firstAttribute="top" secondItem="faK-rp-DUo" secondAttribute="top" constant="20" id="Mf4-Vl-Dh0"/>
                             <constraint firstItem="aA5-Sj-FcX" firstAttribute="top" secondItem="hjV-v9-dNo" secondAttribute="bottom" constant="50" id="PrX-q4-nut"/>
                             <constraint firstItem="aA5-Sj-FcX" firstAttribute="top" secondItem="2TK-X0-lwL" secondAttribute="bottom" constant="50" id="UWB-iV-LtA"/>
                             <constraint firstItem="2TK-X0-lwL" firstAttribute="centerX" secondItem="faK-rp-DUo" secondAttribute="centerX" id="Xcc-Qt-vaV"/>
+                            <constraint firstAttribute="trailing" secondItem="fEq-wo-5XE" secondAttribute="trailing" id="Y5r-3Y-fKv"/>
                             <constraint firstItem="hjV-v9-dNo" firstAttribute="leading" secondItem="faK-rp-DUo" secondAttribute="leading" id="bG3-E5-Ye7"/>
                             <constraint firstAttribute="trailing" secondItem="2sl-mg-7QE" secondAttribute="trailing" constant="20" id="bLH-C7-NtT"/>
                             <constraint firstItem="2sl-mg-7QE" firstAttribute="top" secondItem="Abe-Xu-J1v" secondAttribute="bottom" constant="50" id="ipB-uF-0FB"/>
@@ -98,6 +107,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="7Oy-7X-vXV"/>
                                 <exclude reference="vuM-Ns-M9Z"/>
                                 <exclude reference="PrX-q4-nut"/>
                             </mask>

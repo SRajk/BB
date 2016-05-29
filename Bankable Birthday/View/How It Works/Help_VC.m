@@ -8,7 +8,8 @@
 
 #import "Help_VC.h"
 #import "HelpCollectionViewCell.h"
-// Rk test
+#import "SignIn_VC.h"
+
 @interface Help_VC ()
 
 @end
@@ -23,7 +24,13 @@
     
     self.pgControl.numberOfPages = 3;
     
-    self.navigationController.navigationBar.hidden = YES;
+//    self.navigationController.navigationBar.backgroundColor = [UIColor clearColor];
+//    self.navigationController.navigationBar.tintColor = [UIColor clearColor];
+    
+    [self.navigationController.navigationBar setTranslucent:YES];
+    [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    self.navigationController.navigationBar.backgroundColor = [UIColor clearColor];
+    self.navigationController.navigationBar.shadowImage = [UIImage new];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -69,14 +76,30 @@
 - (void)configureCell:(HelpCollectionViewCell *)cell
    forItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    cell.screenNumber.text = [NSString stringWithFormat:@"%ld",indexPath.row+1];
+    cell.screenNumber.text = [NSString stringWithFormat:@"%d",(int)indexPath.row+1];
+    
     cell.lbl_description.text = @"Birthday[10655:4912432] Width 320.000000 2016-05-29 15:32:30.503 Bankable Birthday[10655:4912432] Width 320.000000 2016-05-29 15:32:30.503 Bankable Birthday[10655:4912432] Width 320.000000";
     
 }
 
 #pragma -mark
 
+#pragma -mark S
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    CGFloat pageWidth = _helpCollectionView.frame.size.width;//255.0f; //self.myCollectionView.frame.size.width;
+    self.pgControl.currentPage = self.helpCollectionView.contentOffset.x / (pageWidth-10);
+   
+}
+
+
+
 #pragma -mark Skip Btn
 - (IBAction)skipClicked:(id)sender {
+    
+    SignIn_VC*sign_in = [[SignIn_VC alloc] initWithNibName:@"SignIn_VC" bundle:nil];
+    
+    [self.navigationController pushViewController:sign_in animated:YES];
+//    [self presentViewController:sign_in animated:YES completion:nil];
 }
 @end
